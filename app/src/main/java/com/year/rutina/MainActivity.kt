@@ -1,7 +1,6 @@
 package com.year.rutina
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -18,8 +17,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -28,7 +25,7 @@ import androidx.navigation.compose.rememberNavController
 import com.year.rutina.ui.theme.RutinaTheme
 import com.year.rutina.views.BoxWeek
 import com.year.rutina.views.Friday
-import com.year.rutina.views.Monday
+import com.year.rutina.views.Monday.NavHostControllerMonday
 import com.year.rutina.views.Saturday
 import com.year.rutina.views.Sunday
 import com.year.rutina.views.Thursday
@@ -50,7 +47,7 @@ fun NavHostController() {
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = "MainScreen") {
         composable("MainScreen") { MainScreen(navController) }
-        composable("Monday") { Monday() }
+        composable("Monday") { NavHostControllerMonday() }
         composable("Tuesday") { Tuesday() }
         composable("Wednesday") { Wednesday() }
         composable("Thursday") { Thursday() }
@@ -59,7 +56,6 @@ fun NavHostController() {
         composable("Sunday") { Sunday() }
 
     }
-    //-----------------------------------------------------------------------
 }
 
 
@@ -99,7 +95,8 @@ fun MainScreen(navHostController: NavHostController) {
                         onClick2 = { navHostController.navigate("Saturday") }
                     )
 
-                    Box (Modifier
+                    Box (
+                        Modifier
                             .fillMaxWidth()
                             .height(200.dp)
                             .background(Color.Magenta)
