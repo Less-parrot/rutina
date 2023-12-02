@@ -1,7 +1,6 @@
 package com.year.rutina
 
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -22,11 +21,19 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.year.rutina.ui.theme.RutinaTheme
 import com.year.rutina.views.BoxWeek
+import com.year.rutina.views.Friday
+import com.year.rutina.views.Monday
+import com.year.rutina.views.Saturday
+import com.year.rutina.views.Sunday
+import com.year.rutina.views.Thursday
+import com.year.rutina.views.Tuesday
+import com.year.rutina.views.Wednesday
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,16 +48,23 @@ class MainActivity : ComponentActivity() {
 fun NavHostController() {
     //-------------------Controlador De Pantallas----------------------------
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = "screen1") {
-        composable("Screen1") { MainScreen() }
+    NavHost(navController = navController, startDestination = "MainScreen") {
+        composable("MainScreen") { MainScreen(navController) }
+        composable("Monday") { Monday() }
+        composable("Tuesday") { Tuesday() }
+        composable("Wednesday") { Wednesday() }
+        composable("Thursday") { Thursday() }
+        composable("Friday") { Friday() }
+        composable("Saturday") { Saturday() }
+        composable("Sunday") { Sunday() }
+
     }
     //-----------------------------------------------------------------------
 }
 
 
 @Composable
-fun MainScreen() {
-    val context = LocalContext.current
+fun MainScreen(navHostController: NavHostController) {
     RutinaTheme {
         Surface(
             modifier = Modifier.fillMaxSize(),
@@ -63,35 +77,33 @@ fun MainScreen() {
                         day2 = "Martes",
                         color = Color.Green,
                         color2 = Color.Red,
-                        onClick = { Toast.makeText(context, "Lunes", Toast.LENGTH_SHORT).show()},
-                        onClick2 = { Toast.makeText(context, "Martes", Toast.LENGTH_SHORT).show()}
-
-
+                        onClick = { navHostController.navigate("Monday") },
+                        onClick2 = { navHostController.navigate("Tuesday") }
                     )
+
                     BoxWeek(
                         day = "Miercoles",
                         day2 = "Jueves",
                         color = Color.Magenta,
                         color2 = Color.Gray,
-                        onClick = { Toast.makeText(context, "Miercoles", Toast.LENGTH_SHORT).show()},
-                        onClick2 = { Toast.makeText(context, "Jueves", Toast.LENGTH_SHORT).show()}
-
-
+                        onClick = { navHostController.navigate("Wednesday") },
+                        onClick2 = { navHostController.navigate("Thursday") }
                     )
+
                     BoxWeek(
                         day = "Viernes",
                         day2 = "Sábado",
                         color = Color.DarkGray,
                         color2 = Color.Red,
-                        onClick = {Toast.makeText(context, "Viernes", Toast.LENGTH_SHORT).show()},
-                        onClick2 = {Toast.makeText(context, "Sábado", Toast.LENGTH_SHORT).show()}
+                        onClick = { navHostController.navigate("Friday") },
+                        onClick2 = { navHostController.navigate("Saturday") }
                     )
-                    Box (
-                        Modifier
+
+                    Box (Modifier
                             .fillMaxWidth()
                             .height(200.dp)
                             .background(Color.Magenta)
-                            .clickable { Toast.makeText(context, "Domingo", Toast.LENGTH_SHORT).show() },
+                            .clickable { navHostController.navigate("Sunday") },
                         Alignment.Center
                     ){
                         Text(text = "Domingo")
