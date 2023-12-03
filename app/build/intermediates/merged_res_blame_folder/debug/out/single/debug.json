@@ -4,24 +4,32 @@
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_levantarsecama.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/levantarsecama.jpeg"
+    },
+    {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/drawable_ic_launcher_foreground.xml.flat",
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/drawable/ic_launcher_background.xml"
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_leer.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/leer.jpeg"
     },
     {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/xml_backup_rules.xml.flat",
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_unapalabraingles.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/unapalabraingles.jpeg"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_haceroficio.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/haceroficio.jpeg"
     },
     {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -32,16 +40,84 @@
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.year.rutina.app-merged_res-50:/drawable_despertar.jpeg.flat",
-        "source": "com.year.rutina.app-main-52:/drawable/despertar.jpeg"
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_correr.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/correr.jpeg"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_pensar.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/pensar.jpeg"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_volvercasa.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/volvercasa.jpeg"
     },
     {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_hielo.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/hielo.jpeg"
+    },
+    {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_ingles.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/ingles.jpeg"
+    },
+    {
+        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_oficiosihay.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/oficiosihay.jpeg"
+    },
+    {
+        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/drawable_despertar.jpeg.flat",
+        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/drawable/despertar.jpeg"
+    },
+    {
+        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_tendercama.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/tendercama.jpeg"
+    },
+    {
+        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_descansar.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/descansar.jpeg"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_dibujar.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/dibujar.jpeg"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_cocinar.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/cocinar.jpeg"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_dormir.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/dormir.jpeg"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_programar.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/programar.jpeg"
     },
     {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/xml_data_extraction_rules.xml.flat",
@@ -52,19 +128,23 @@
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_dormirfinal.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/dormirfinal.jpeg"
     },
     {
-        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_dientes.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/dientes.jpeg"
+    },
+    {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_hacercualquiercosa.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/hacercualquiercosa.jpeg"
     },
     {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_cara.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/cara.jpeg"
     }
 ]

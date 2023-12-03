@@ -34,15 +34,6 @@ import com.year.rutina.views.Thursday
 import com.year.rutina.views.Tuesday
 import com.year.rutina.views.Wednesday
 
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            NavHostController()
-        }
-    }
-}
-
 @Composable
 fun NavHostController() {
     //-------------------Controlador De Pantallas----------------------------
@@ -57,6 +48,15 @@ fun NavHostController() {
         composable("Saturday") { Saturday() }
         composable("Sunday") { Sunday() }
 
+    }
+}
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            NavHostController()
+        }
     }
 }
 

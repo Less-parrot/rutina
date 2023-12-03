@@ -21,6 +21,30 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.year.rutina.views.Monday.Monday
+import com.year.rutina.views.Monday.Views.BeHome.ViewAnything
+import com.year.rutina.views.Monday.Views.BeHome.ViewBackHome
+import com.year.rutina.views.Monday.Views.BeHome.ViewDraw
+import com.year.rutina.views.Monday.Views.BeHome.ViewFace
+import com.year.rutina.views.Monday.Views.BeHome.ViewIce
+import com.year.rutina.views.Monday.Views.BeHome.ViewLearnCook
+import com.year.rutina.views.Monday.Views.BeHome.ViewLearnEnglish
+import com.year.rutina.views.Monday.Views.BeHome.ViewMackingBed
+import com.year.rutina.views.Monday.Views.BeHome.ViewOccupation
+import com.year.rutina.views.Monday.Views.BeHome.ViewOneWord
+import com.year.rutina.views.Monday.Views.BeHome.ViewProgramSoftware
+import com.year.rutina.views.Monday.Views.BeHome.ViewRead
+import com.year.rutina.views.Monday.Views.BeHome.ViewRelax
+import com.year.rutina.views.Monday.Views.BeHome.ViewRiceFromBed
+import com.year.rutina.views.Monday.Views.BeHome.ViewRun
+import com.year.rutina.views.Monday.Views.BeHome.ViewSleep
+import com.year.rutina.views.Monday.Views.BeHome.ViewSleepFinish
+import com.year.rutina.views.Monday.Views.BeHome.ViewTeeth
+import com.year.rutina.views.Monday.Views.BeHome.ViewThink
+import com.year.rutina.views.Monday.Views.BeHome.ViewWakeUp
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
@@ -37,7 +61,7 @@ import kotlin.concurrent.schedule
 *
 *
 * 7am -> salir a correr
-*   -hacer ejercicioMaking the bed.
+*   -hacer ejercicio
 *   -leer 10 páginas de un libro
 *   -pensar(meditar)
 *   -correr de vuelta
@@ -70,6 +94,40 @@ import kotlin.concurrent.schedule
 *   -aprender algo de tecnología
 *   -dormir
 */
+
+
+
+@Composable
+fun NavHostControllerMondayHour() {
+    //-------------------Controlador De Pantallas----------------------------
+    val navController = rememberNavController()
+    NavHost(navController = navController, startDestination = "ViewProgramSoftware") {
+        composable("ViewWakeUp") { ViewWakeUp() }//despertar
+        composable("ViewMackingBed") { ViewMackingBed() }//hacer la camar
+        composable("ViewIce") { ViewIce() }//hielo en cara
+        composable("ViewRun") { ViewRun() }//salir a correr
+        composable("ViewRead") { ViewRead() }//leer un libro
+        composable("ViewThink") { ViewThink() }//pensar/meditar
+        composable("ViewBackHome") { ViewBackHome() }//correr de vuelta a casa
+        composable("ViewTeeth") { ViewTeeth() }//lavarse los dientes
+        composable("ViewFace") { ViewFace() }//lavarse la cara
+        composable("ViewRelax") { ViewRelax() }//hora de descansar un pequeño rato | ¿opcional !si!no!? |
+        composable("ViewRiceFromBed") { ViewRiceFromBed() }//levantarse e la púta cama y ponerse a hacer algo
+        composable("ViewOccupation") { ViewOccupation() }//hora de hacer el oficio asignado que le hayan dejado.
+        composable("ViewLearnEnglish") { ViewLearnEnglish() }//ya tocó aprender inglés, lo que dejó para ultimo momento
+        composable("ViewOneWord") { ViewOneWord() }//al menos aprenda una sola palabra diariamente
+        composable("ViewLearnCook") { ViewLearnCook() }//aprender a cocinar
+        composable("ViewSleep") { ViewSleep() }//puede dormir/descanzar
+        composable("ViewDraw") { ViewDraw() }//hora de ponerse creativo, ¡Dibuja YA!
+        composable("ViewAnything") { ViewAnything() }//LIBERTAD!, HACER LO QUE SEA!!
+        composable("ViewProgramSoftware") { ViewProgramSoftware() }
+        composable("ViewSleepFinish") { ViewSleepFinish() }//Si hizo todo, tiene merecido dormir. Felicidades
+
+
+    }
+}
+
+
 @Composable
 fun ViewBeHome(
     image: Int,

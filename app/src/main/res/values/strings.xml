@@ -26,7 +26,7 @@
 
     <string name="dientes">Lavarse los dientes</string>
     <string name="hora_dientes">8:00:00</string>
-    <string name="frase_ientes">Un día sin sonrisa es un día perdido.</string>
+    <string name="frase_dientes">Un día sin sonrisa es un día perdido.</string>
 
     <string name="cara">Lavarse la cara</string>
     <string name="frase_cara">El acto de limpiar tu rostro no solo refresca tu piel, sino también tu espíritu</string>
@@ -52,7 +52,7 @@
 
     <string name="dormir">Dormir/Descansar</string>
     <string name="hora_dormir">12:00:00</string>
-    <string name="frase_dormir">La cocina es el lienzo donde los ingredientes se convierten en obras maestras; cada plato es una historia que se saborea con gratitud.</string>
+    <string name="frase_dormir">Despues de un buen almuerzo, puede tomar una pequeña siesta o hibernar, como buen león que es.</string>
 
     <string name="dibujar">Dibujar/Idear</string>
     <string name="hora_dibujar">14:00:00</string>
