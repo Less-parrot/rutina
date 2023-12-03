@@ -26,6 +26,7 @@ import com.year.rutina.ui.theme.RutinaTheme
 import com.year.rutina.views.BoxWeek
 import com.year.rutina.views.Friday
 import com.year.rutina.views.Monday.NavHostControllerMonday
+import com.year.rutina.views.Monday.Views.PlayCronometro
 import com.year.rutina.views.Saturday
 import com.year.rutina.views.Sunday
 import com.year.rutina.views.Thursday
@@ -109,4 +110,6 @@ fun MainScreen(navHostController: NavHostController) {
             }
         }
     }
+    PlayCronometro()
+
 }

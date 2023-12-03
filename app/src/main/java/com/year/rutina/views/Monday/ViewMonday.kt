@@ -19,6 +19,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.year.rutina.views.Monday.Views.BeHome.ViewWakeUp
 import com.year.rutina.views.Monday.Views.ViewBeHome
 import com.year.rutina.views.Monday.Views.ViewGoMoney
 
@@ -28,7 +29,7 @@ fun NavHostControllerMonday() {
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = "Monday") {
         composable("Monday") { Monday().Monday(navHostController = navController) }
-        composable("BeHome") { ViewBeHome() }
+        composable("BeHome") { ViewWakeUp()}
         composable("GoMoney") { ViewGoMoney() }
     }
 }

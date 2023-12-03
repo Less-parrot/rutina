@@ -75,6 +75,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+drawable despertar
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -205,9 +206,11 @@ string close_sheet
 string collapsed
 string default_error_message
 string default_popup_window_title
+string despertar
 string dialog
 string dropdown_menu
 string expanded
+string frase_despertar
 string in_progress
 string indeterminate
 string navigation_menu
