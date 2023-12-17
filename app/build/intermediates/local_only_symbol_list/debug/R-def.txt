@@ -24,7 +24,6 @@ drawable ic_launcher_foreground
 drawable ingles
 drawable leer
 drawable levantarsecama
-drawable oficiosihay
 drawable pensar
 drawable programar
 drawable tendercama

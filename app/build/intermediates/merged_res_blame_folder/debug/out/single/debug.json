@@ -40,6 +40,10 @@
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.year.rutina.app-merged_res-50:/drawable_despertar.jpeg.flat",
+        "source": "com.year.rutina.app-main-52:/drawable/despertar.jpeg"
+    },
+    {
         "merged": "com.year.rutina.app-merged_res-50:/drawable_correr.jpeg.flat",
         "source": "com.year.rutina.app-main-52:/drawable/correr.jpeg"
     },
@@ -72,20 +76,12 @@
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.year.rutina.app-merged_res-50:/drawable_oficiosihay.jpeg.flat",
-        "source": "com.year.rutina.app-main-52:/drawable/oficiosihay.jpeg"
-    },
-    {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/drawable_despertar.jpeg.flat",
-        "source": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-main-52:/drawable/despertar.jpeg"
     },
     {
         "merged": "/home/less/.gradle/daemon/8.0/com.year.rutina.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
